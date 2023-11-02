@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { FirstExampleUseEffect } from './components/FirstExampleUseEffect';
+import { Users } from './components/Users';
+
 
 function App() {
   return (
@@ -17,7 +20,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+        <div className='content'>
+          <FirstExampleUseEffect/>
+          <Users/>
+        </div>
+      </header>            
     </div>
   );
 }
